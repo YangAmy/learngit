@@ -1,0 +1,297 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"set",
+				"Set Syntax: Textile"
+			],
+			[
+				"set text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"pain",
+				"Package Control: Install Package"
+			],
+			[
+				"paicus",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"packcon",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"mavensmate",
+				"MavensMate: Compile Tabs"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Package Control: Install Package  Search for MavensMate",
+			"Package Control: Install Package",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Amy/Documents/SFDC/pro1",
+		"/Users/Amy/Documents/SFDC/pro1/src"
+	],
+	"file_history":
+	[
+		"/Users/Amy/Desktop/test.txt",
+		"/Users/Amy/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/Amy/Library/Application Support/Sublime Text 3/Packages/MavensMate/sublime/settings-help.txt",
+		"/Users/Amy/Library/Application Support/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+		"/Users/Amy/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Amy/Documents/SFDC/pro1/src/pages/ContactsList.page",
+		"/Users/Amy/Documents/SFDC/pro1/src/pages/AccountsList.page",
+		"/Users/Amy/Desktop/LICENSE.txt",
+		"/LICENSE.txt",
+		"/Users/Amy/Desktop/readme.txt",
+		"/Users/Amy/Desktop/readme",
+		"/Users/Amy/Desktop/untitled",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/TestSendContactEmail.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/TestRestrictContactByName.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/TestRejectDoubleBooking.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/TestDataFactory.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/TestAccountDeletion.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/TemperatureConverterTest.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/TemperatureConverter.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/TaskUtil.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/StringArrayTest.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/SpeakerControllerExtension.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/RandomContactFactory.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/MyUpsert2.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/MyUpsert.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/MySOSL.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/MySOQL6.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/MySOQL5.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/MySOQL4.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/MySOQL2.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/MyDmlExcep.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/MyDelete.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/ContactSearch.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/ContactAndLeadSearch.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/classes/AccountHandler.cls",
+		"/Users/Amy/Documents/SFDC/pro1/src/triggers/SendContactEmail.trigger",
+		"/Users/Amy/Documents/SFDC/pro1/src/triggers/AccountAddressTrigger.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/pages/HotelMap.page",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/SpeakerControllerExtension.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/CalloutTrigger.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/pages/SpeakerForm.page",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/SoqlTriggerBulk2.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/SoqlTriggerBulk.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/SendConfirmationEmail.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/RestrictContactByName.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/RejectDoubleBooking.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/MyTriggerNotBulk.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/MyTriggerBulk.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/HelloWorldTrigger.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/ExampleTrigger.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/DmlTriggerNotBulk.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/DmlTriggerBulk.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/ContextExampleTrigger.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/ClosedOpportunityTrigger.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/AddRelatedRecord2.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/AccountDeletion2.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/AccountDeletion.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/triggers/AccountAddressTrigger.trigger",
+		"//Users/Amy/Documents/SFDC/pro1/src/pages/AccountData.page",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/VerifyDate.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/TestVerifyDate.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/TestDataFactory.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/TestAccountDeletion.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/TemperatureConverterTest.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/TemperatureConverter.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/TaskUtilTest.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/TaskUtil.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/StringArrayTest.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/SendReminderEmail.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MyUpsert2.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MyUpsert.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MySOSL.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MySOQL6.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MySOQL5.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MySOQL4.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MySOQL2.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MySOQL1.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MyReleted.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MyRelated2.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MyPractest.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MyPartialSuccess.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MyID.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MyDmlExcep.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MyDelete.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/MyBulk.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/HotelRemoter.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/ContactSearch.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/ContactController.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/ContactAndLeadSearch.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/CalloutClass.cls",
+		"//Users/Amy/Documents/SFDC/pro1/src/classes/AccountHandler.cls",
+		"/Users/Amy/Library/Application Support/Sublime Text 3/Packages/MavensMate/mavensmate.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 201.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pro1.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

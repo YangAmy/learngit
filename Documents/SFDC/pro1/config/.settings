@@ -1,0 +1,16 @@
+{
+    "projectName": "pro1",
+    "username": "amy.yang@meginfo.com",
+    "id": "fbe32ff0-ad2a-11e5-98be-cdeaedb6e46b",
+    "namespace": "",
+    "environment": "production",
+    "loginUrl": "https://login.salesforce.com/",
+    "workspace": "Users/Amy/Documents/SFDC",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

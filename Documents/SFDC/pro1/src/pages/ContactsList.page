@@ -1,0 +1,29 @@
+<apex:page sidebar="false" showHeader="false" standardController="Account">
+    
+    <apex:pageBlock title="Contacts of {! Account.Name }" >   
+        <apex:pageBlockTable value="{! Account.contacts }" var="con">
+            
+            <apex:column >
+                <apex:outputLink value="{! URLFOR($Action.Contact.Edit,con.Id) }">
+                    Edit
+                </apex:outputLink>
+                &nbsp;
+                <apex:outputLink value="{! URLFOR($Action.Contact.Delete,con.Id) }">
+                    Del
+                </apex:outputLink>
+            </apex:column>
+            
+            <apex:column title="Name">
+                <apex:outputLink value="{! $Page.ContactDetail}?id={! con.Id}">
+                    {! con.Name }
+                </apex:outputLink>
+            </apex:column>
+            
+            <apex:column value="{! con.Title }"/>
+            <apex:column value="{! con.Email }"/>
+            <apex:column value="{! con.Description }"/>
+            
+        </apex:pageBlockTable>       
+    </apex:pageBlock>
+    
+</apex:page>

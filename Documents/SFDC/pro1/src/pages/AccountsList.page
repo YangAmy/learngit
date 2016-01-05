@@ -1,0 +1,20 @@
+<apex:page sidebar="false" showHeader="false"
+           recordSetVar="accounts" standardController="Account">
+    
+    <apex:pageBlock title="Accounts">
+        <apex:pageBlockTable value="{! accounts }" var="acc">
+            
+            <apex:column >
+                <apex:outputLink value="{! $Page.ContactsList}?id={! acc.Id}">
+                     {! acc.Name }
+                </apex:outputLink>
+            </apex:column>
+            
+            <apex:column value="{! acc.Website }"/>
+            <apex:column value="{! acc.Type }"/>
+            <apex:column value="{! acc.Description }"/>
+            
+        </apex:pageBlockTable>  
+    </apex:pageBlock>
+        
+</apex:page>

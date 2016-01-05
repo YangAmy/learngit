@@ -1,0 +1,12 @@
+<apex:page >
+
+ <h1>Help for the Candidate Object</h1>
+  
+   <p> The Candidate object is for identifying and tracking individual
+   candidate for job position
+   </p>
+   
+   <p>Sort candiates by Name,Location,Last Modified,and Prospect Rating
+   </p>
+  
+</apex:page>

@@ -1,0 +1,29 @@
+<apex:page sidebar="false" showHeader="false" standardController="Contact">
+    
+    <apex:form > 
+        
+        <apex:pageBlock title="Contact Detail {! Contact.Name }">  
+            
+           <apex:pageBlockSection columns="2">
+              <apex:inputField value="{! Contact.Name }"/>
+              <apex:inputField value="{! Contact.Email }"/>
+              <apex:selectList label="Type" id="chooseType" size="1" >
+                   <apex:selectOption itemValue="Prospect" itemLabel="Prospect"/>
+                   <apex:selectOption itemValue="Customer" itemLabel="Customer"/>
+                   <apex:selectOption itemValue="Other" itemLabel="Other"/>
+              </apex:selectList>
+              &nbsp;
+              <apex:inputTextarea value="{! Contact.Description }"/>
+           </apex:pageBlockSection>      
+        
+           <apex:pageBlockButtons location="bottom">
+              <apex:commandButton action="{! save }" value="Save"/>
+              &nbsp;   &nbsp;
+              <apex:commandButton action="{! cancel }" value="Cancel"/>
+          </apex:pageBlockButtons>
+      
+       </apex:pageBlock>
+        
+    </apex:form>
+    
+</apex:page>
